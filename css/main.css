@@ -338,6 +338,15 @@ header {
   text-align: center;
   font-size: 14px;
   width: 80%;
+  margin:0 auto;
+}
+
+.yu-bk {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -811,6 +820,7 @@ footer {
 
 .grow-bk-ground {
   flex-direction: row-reverse;
+  padding:0;
 }
 
 .grow-bk-ground img {
@@ -863,7 +873,7 @@ footer {
 .your-users-bk {
   flex-direction: row-reverse;
   justify-content: space-around;
-
+  padding:0;
 }
 
 .yu-bk {
