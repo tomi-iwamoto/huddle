@@ -625,13 +625,11 @@ footer {
   }
 
   .stat-1 {
-    /* padding-left: 50px; */
     padding-top: 50px;
   }
 
   .stat-2 {
     margin: 0;
-    /* padding-right: 50px; */
     padding: 120px;
   }
 
@@ -946,10 +944,7 @@ footer {
   cursor: pointer;
 }
 
-
-
 }
-
 
 
 }
