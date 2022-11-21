@@ -151,7 +151,7 @@ header {
   border-radius: 50px;
   font-family: 'Open Sans', sans-serif;
   padding: 12px 35px;
-  font-size: 14px;
+  font-size: 20px;
   margin: 30px 0 80px 0;
 }
 
@@ -251,6 +251,7 @@ header {
 
 .grow-together .gt-curve {
   width: 100%;
+  height: 260px;
 }
 
 .grow-bk-ground img {
@@ -281,7 +282,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 150px;
+  padding: 50px 0px;
 }
 
 .flowing-convo img {
@@ -311,7 +312,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 .your-users-bk {
@@ -321,7 +322,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #f6fbff;
-  padding: 50px 0 100px 0;
+  padding: 25px 0 50px 0;
 }
 
 .your-users-bk img {
@@ -358,6 +359,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 120px;
 }
 
 .cta .cta-text {
@@ -366,7 +368,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .cta h3 {
@@ -380,9 +382,9 @@ header {
   color: white;
   border-radius: 50px;
   font-family: 'Open Sans', sans-serif;
-  padding: 12px 35px;
+  padding: 12px 40px;
   font-size: 12px;
-  margin: 30px 0 250px 0;
+  margin: 30px 0 30px 0;
 }
 
 /*----------mobile footer ---------*/
@@ -597,7 +599,7 @@ footer {
 @media only screen and (min-width: 768px) {
 
   .hero button {
-    padding: 18px 40px;
+    padding: 18px 52px;
   }
 
   .hero button:hover {
@@ -605,7 +607,7 @@ footer {
   }
 
   .hero h1 {
-    font-size: 30px;
+    font-size: 33px;
     width: 90%;
   }
 
@@ -625,16 +627,16 @@ footer {
   }
 
   .stat-1 {
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   .stat-2 {
     margin: 0;
-    padding: 120px;
+    padding-top: 80px;
   }
 
   .stat-1 h1 {
-    font-size: 60px;
+    font-size: 72px;
   }
 
   .stat-1 p {
@@ -642,7 +644,7 @@ footer {
   }
 
   .stat-2 h1 {
-    font-size: 60px;
+    font-size: 72px;
   }
 
   .stat-2 p {
@@ -750,7 +752,7 @@ footer {
 .cta .footer-top-curve {
   width: 100%;
   position:absolute;
-  bottom:0;
+  bottom:-1px;
 }
 
 }
@@ -803,14 +805,14 @@ footer {
   padding:0;
 }
 .stat-1 h1 {
-  font-size: 80px;
+  font-size: 100px;
 }
 .stat-2 {
   padding:0;
 }
 
 .stat-2 h1 {
-  font-size: 80px;
+  font-size: 100px;
 }
 
 
@@ -818,7 +820,7 @@ footer {
 
 .grow-bk-ground {
   flex-direction: row-reverse;
-  padding:0;
+  padding72px;
 }
 
 .grow-bk-ground img {
@@ -881,6 +883,7 @@ footer {
   align-items: center;
   width: 80%;
 }
+
 .yu-text {
   display: flex;
   flex-direction: column;
@@ -889,8 +892,13 @@ footer {
   width: 80%;
 }
 
+.your-users img {
+  height: 240px;
+}
+
 .your-users-bk img {
   width: 40%;
+  height:100%;
 }
 
 .yu-text h3 {
@@ -904,11 +912,13 @@ footer {
 }
 
 .cta .cta-text {
-  padding:20px 0 150px 0;
+  padding:20px 0 240px 0;
 }
 
 .cta button {
   transition-duration: 250ms;
+  font-size: 20px;
+  padding: 18px 52px;
 }
 
 .cta button:hover {
